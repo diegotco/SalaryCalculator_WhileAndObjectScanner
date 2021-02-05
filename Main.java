@@ -3,7 +3,7 @@
 2. Salespeople who exceed 10 sales within a week, will get an additional bonus of 250 dollars
 */ 
 
-//import java.util.Scanner;
+import java.util.Scanner;
 
 class Main {
   public static void main(String[] args) {
@@ -23,7 +23,11 @@ while (flag == 1){
 
     //Quick detour for the bonus earners
     if(sales >= quota){
-    salary = salary + bonus;
+        salary = salary + bonus;
+    }
+    else{
+        int shortQuota = quota - sales;
+        System.out.println("You were short by :" + shortQuota + "sales");
     }
 
 
