@@ -30,7 +30,7 @@ while (flag == 1){
     //Output
     System.out.println("The employee's pay is $" + salary);
     System.out.println("Do you want to continue? Write 1 or 0");
-
+    salary = 1000; //to avoid 'salary' variable add the last value in each lap and grow
     flag = scanner.nextInt();
   }
 
