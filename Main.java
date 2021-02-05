@@ -32,7 +32,6 @@ while (flag == 1){
     System.out.println("Do you want to continue? Write 1 or 0");
 
     flag = scanner.nextInt();
-    scanner.close();
   }
 
     }
