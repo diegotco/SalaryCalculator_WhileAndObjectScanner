@@ -23,11 +23,12 @@ while (flag == 1){
 
     //Quick detour for the bonus earners
     if(sales >= quota){
+        System.out.println("Congrats, you made the quota!");
         salary = salary + bonus;
     }
     else{
         int shortQuota = quota - sales;
-        System.out.println("You were short by :" + shortQuota + "sales");
+        System.out.println("You were short by: " + shortQuota + " sales short");
     }
 
 
