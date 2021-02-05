@@ -3,7 +3,7 @@
 2. Salespeople who exceed 10 sales within a week, will get an additional bonus of 250 dollars
 */ 
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 class Main {
   public static void main(String[] args) {
